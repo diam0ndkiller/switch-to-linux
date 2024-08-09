@@ -129,4 +129,4 @@ But sadly, to face the truth, some popular games aren't supported yet. Mostly du
 #### Games on EPIC GAMES or GOG using Heroic
 For games on the Epic Game Store or GOG there is the Heroic Games Launcher. Just install it from the Software Manager, login with your account and install your games. Although Lutris also has Epic Games and GOG support, I would recommend using Heroic, because it's more specialized.
 #### Other games using Lutris
-For a lot of other games, there is a program called Lutris. It is a launcher / library for a lot of titles. It has community built installers for a lot of games.
+For a lot of other games, there is a program called Lutris. It is a launcher / library for a lot of titles. It has community built installers for a lot of games. If you don't find a game elsewhere, it will probably be here and the community has picked the best way to install it.
