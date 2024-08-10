@@ -36,7 +36,11 @@ All of these versions feature the same base system, but with a different **Deskt
 
 You can go ahead and click the "Download" button right now. It will take you to a page of multiple other links. If you scroll down a bit, you will find the "Download Mirrors" section. This is again a result of the community-driven nature of Linux Mint. There is not one big server where you can download the system. Instead, there are multiple small ones, hosted mostly by universities and other organisations, that host the same files for all. Choose a location that is close to your home and click the link. Your download should start now. You can continue reading this post while it runs.
 
-//TODO
+Like promised I'd like to point some this out that make me use Linux Mint to this day.
+1. **Stability:** In contrast to some other more advanced Linux users who use more experimental distributions, I like to stay on Linux Mint because I can just be sure that my system stays operational, whatever updates or packages I install.
+2. **Software Support:** Linux Mint is based on Ubuntu, a very popular distro for both servers and PCs. Because of that Mint offers software support for a lot of programs that are maybe more niche, because they have been ported to the more-known Ubuntu system. That also includes graphcis drivers for NVIDIA, which can be hard to find on some other distributions.
+3. **Community:** From both a beginner's and a advanced's perspective the Linux Mint community is a great place to be. The forums make the life easier for you and let me help other people. And the developers in this community care a lot about the ideas of the users.
+4. **Customizability:** Even though there are other options that can be more customized, all three editions of Linux Mint (Cinnamon, XFCE and MATE) can be customized a lot which makes them a solid base for almost everyone without having to install a lot of tools.
 
 ## 2. Booting and Media
 In order to install an operating system on your PC, you need to create a "bootable media". This is just a USB stick that behaves as if it were a hard disk or SSD inside your computer and that contains an operating system.
