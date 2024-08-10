@@ -1,43 +1,45 @@
 # A Guide on how best to switch from Windows to Linux for daily use
 -by diam0ndkiller
 
-Like everyone in the Linux community, I always see videos of people trying the switch to Linux but not having a single straight-forward guide at hand. A lot of guides on the internet are good, but they don't especially work to well with each other.
+Like everyone in the Linux community, I always see videos of people trying the switch to Linux but not having a single straight-forward guide at hand. A lot of guides on the internet are good, but they don't work especially well with each other.
 So I decided to write my own one, in order to make it easier for you guys.
 ## 0. What is Linux
 In order to understand this guide or in order to even consider switching, you first need to understand what Linux even is.
 
-Linux is an operating system for you computer. Much like the more-known alternatives Windows and MacOS, it is responsible for providing an interface and applications for you to use your PC. The difference however is, that, contrary to Windows and MacOS, Linux is not backed by a big company. On one hand that means that you don't have official support hotlines, but on the other hand it means that the possibilities on Linux are not limited by a money-making construct, but rather by a free community.
+Linux is an operating system for your computer. Much like the more-known alternatives Windows and MacOS, it is responsible for providing an interface and applications for you to use your PC. The difference however is, that, contrary to Windows and MacOS, Linux is not backed by a big company. On one hand that means that you don't have official support hotlines, but on the other hand it means that the possibilities on Linux are not limited by a money-making construct, but rather by a free community.
 
 Most of the time people switch to Linux, because they either
 - don't like the look and feel of their own previous operating system or (way more often)
 - dislike the direction the large company backing their system is going regarding data collection or accounts for example.
 
-But most people get discouraged very fast by the large amount of distributions available. Like I said, Linux is a community-driven project. But that also means, that everyone can take his own approach to it.
+But most people get discouraged very fast by the large amount of distributions available. Like I said, Linux is a community-driven project. But that also means, that everyone can take their own approach to it.
 
-You see, Linux itself is not an operating system, it is a base for multiple Linux-like operating systems, called distros. There are hundreds if not thousands of distros around the internet, and A LOT of guides do a bad to horrible job of helping you choose. But don't go just now. I'm not gonna make that mistake and recommend ONE SINGLE distro to you:
+You see, Linux itself is not an operating system, it is a base for multiple Linux-like operating systems, called distros. There are hundreds if not thousands of distros around the internet, and A LOT of guides do a bad to horrible job of helping you choose. But don't go just now. I'm not going to make that mistake. Instead, I'll and recommend ONE SINGLE distro to you:
 
 ![[linuxmint-logo-mono.svg]]
 
 ## 1. Linux Mint
-The Linux Mint operating system is a Linux distribution that is targeted to beginners. But it has a few perks that make me use it till this day.
+The Linux Mint operating system is a Linux distribution that is targeted to beginners. But it has a few perks that make me use it till to day.
 
-The project is driven by a team of developers and, like most other projects in the Linux space, developed **free** and **open-source** (FOSS). That means, that everyone who has the knowledge and is interested can look into and modify the source code, to fix bugs, add feature requests or just try to understand it.
+The project is driven by a team of developers and is, like most other projects in the Linux space, developed **free** and **open-source** (FOSS). That means, that everyone who has the knowledge and is interested can look into and modify the source code, to fix bugs, add feature requests or just try to understand it.
 
-Linux Mint just released it's version 22, codenamed Wilma, as of writing this article. To download it, visit [[https://linuxmint.com/download.php]]. There, you will be greeted with three options:
+As of writing this article, Linux Mint just released it's version 22, codenamed Wilma. To download it, visit [[https://linuxmint.com/download.php]]. There, you will be greeted with three different "Editions" of Linux Mint:
 
 - The "Cinnamon Edition":
-  This is the most popular version of Linux Mint, which I recommend you too. It packs a graphical user interface (GUI) that looks and feels like Windows out of the box, but it can be customized in a lot of ways to work differently.
+  This is the most popular version of Linux Mint, which I recommend to most beginners too. It includes a graphical user interface (GUI) that looks and feels like Windows out of the box. However but it can be customized in a lot of ways to work differently.
 - The "XFCE Edition":
-  This is another graphical user interface which you can choose. It is a bit older and lacks some modern features, but is more lightweight and more customizable.
+  This edition ships with a different graphical user interface called XFCE. It is a bit older and lacks some modern features, but is more lightweight and more customizable.
 - And finally: The "MATE Edition":
-  Similar to XFCE, this is even more lightweight and even older. I wouldn't recommend it to most users.
+  MATE is similar to XFCE, but it is even more lightweight and even older. I wouldn't recommend it to most users.
 
-All of this versions feature the same base system, but with a different **Desktop Environment** built on top of it. Desktop Environments (or short DEs) are a part of your graphical user interface. They are responsible of showing your Taskbar(s) (Panels), your windows and your desktop icons for example. In this guide I recommend you use the Cinnamon desktop, like said before.
+All of these versions feature the same base system, but with a different **Desktop Environment** built on top of it. Desktop Environments (or short: DEs) are a part of your graphical user interface. They are responsible for displaying your Taskbar(s) (Panels), your windows and your desktop icons along with other things. In this guide I recommend you use the Cinnamon Desktop Environment, like said before.
 
 You can go ahead and click the "Download" button right now. It will take you to a page of multiple other links. If you scroll down a bit, you will find the "Download Mirrors" section. This is again a result of the community-driven nature of Linux Mint. There is not one big server where you can download the system. Instead, there are multiple small ones, hosted mostly by universities and other organisations, that host the same files for all. Choose a location that is close to your home and click the link. Your download should start now. You can continue reading this post while it runs.
 
+//TODO
+
 ## 2. Booting and Media
-In order to install an operating system on your PC, you need to create a "bootable media". That is just a USB stick that behaves like it was a hard disk or SSD inside your computer and that contains an operating system.
+In order to install an operating system on your PC, you need to create a "bootable media". This is just a USB stick that behaves as if it were a hard disk or SSD inside your computer and that contains an operating system.
 
 In order to create it, I recommend you use a tool called **Ventoy**. Download it from [[https://ventoy.net/en/download.html]]. Click the windows.zip link and in the list click the windows.zip link again to download it. Open the downloaded archive and extract it to your downloads folder by using the "Extract All" button at the top of the window. If you don't get there automatically, navigate to your downloads and open the folder where you extracted Ventoy. Inside you will find a file called `Ventoy2Disk`.
 
@@ -45,7 +47,7 @@ Now insert a USB stick. It can be any stick you want, just note that
 **EVERYTHING ON THAT STICK WILL BE DELETED**
 when you install Ventoy to it. Afterwards you are able to copy everything back onto it but make sure to have a backup.
 
-After inserting a stick, launch the `Ventoy2Disk` program by double-clicking it. You will be greeted with a window. On the top, Select the USB stick you want to use. Then just click "Install". Once again:
+After inserting your stick, launch the `Ventoy2Disk` program by double-clicking it. You will be greeted with a window. On the top, Select the USB stick you want to use. Then just click "Install". Once again:
 **ALL YOUR FILES WILL BE REMOVED!**
 
 After you installed Ventoy to your stick, it's as simple as to copy the downloaded `linuxmint-something.iso` file onto your USB stick, which should now be called "Ventoy". Congratulations! You now have a bootable USB stick and you can put as many operating systems or other files on it as you wish.
@@ -54,15 +56,18 @@ In order to start the Linux installation, you have to restart your PC. As soon a
 
 I promise you, this is the most complex part of the guide!
 
-You will now be greeted with either a boot menu or a more complex BIOS menu. If you just see a list of different media labelled UEFI, LEGACY, USB or something like that, you entered the boot menu. Use the arrow keys to select the USB entry and hit enter.
+You will now be greeted with either a boot menu or a more complex BIOS menu. If you just see a list of different media labelled EFI, SATA, USB or something like that, you entered the boot menu. Use the arrow keys to select the USB entry and hit enter.
 
 If you have a more complex interface with multiple tabs, don't worry! You just entered the BIOS of your computer. You just need to use the arrow keys or in some cases even the mouse to go to the BOOT tab. Now there are three options:
 
 #### 1. Boot override
-If you see a "Boot Override" somewhere on screen, navigate to it. Here you will be able to boot from USB like described above.
+If you see a "Boot Override" somewhere on screen, navigate to it. Here you will be able to boot from your USB stick like described above.
 
 #### 2. Boot order with multiple rows
-If you see a heading called "Boot order" or "Boot priority" and see multiple lines of different names below it, follow this instruction. Navigate to the USB entry and use the keys shown at the bottom of the screen to move it up to the first position. Search for the "Save and Exit" key on the bottom of your screen and press it.
+If you see a heading called "Boot order" or "Boot priority" and see multiple lines of different names below it, follow these instruction.
+1. Navigate to the USB entry.
+2. Use the keys shown at the bottom of the screen to move it up to the first position.
+3. Search for the "Save and Exit" key on the bottom of your screen and press it.
 
 #### 3. Boot order with a single row
 If you see a single column showing e.g. HDD -> SSD -> USB, it means you have a one-line boot priority menu. Just hit SPACE or Enter on it, until USB is at the front position. Now search for the "Save and Exit" key at the bottom of your screen and press it.
@@ -74,9 +79,9 @@ After the system has started, you will see your graphical interface for the firs
 
 #### Installer Steps
 ##### 1. Language
-First you will get asked for the installation language. You choice here will set the language of the installer from now on and the language of the entire system after installation.
+First you will get asked for the installation language. Your choice here will set the language of the installer from now on and the language of the entire system after installation.
 ##### 2. Keyboard Layout
-Independently of your language of choice, you can set your keyboard layout. This is VERY IMPORTANT, for if you don't set it correctly, you might not find keys you are searching for. The keyboard layout ensures, that the descriptions on your physical keyboard match what you type on screen.
+Independently of your language of choice, you can set your keyboard layout. This is VERY IMPORTANT, for if you don't set it correctly, you might not find keys you are searching for. The keyboard layout ensures, that the descriptions on your physical keyboard match what you type on your screen.
 ##### 2.5. Network
 If you didn't connect before and if you don't have a wired connection, you will now be prompted to connect to a WiFi network. Just connect by entering the password for your WiFi like you do on any other device. You could technically work without it but it is required for the next step to work and it will save you some hassle later.
 ##### 3. Multimedia codecs
@@ -97,7 +102,7 @@ Now you will create the login data for your computer. Enter your name at the top
 Click continue for the last time and Linux Mint will start installing to your Computer. You can click through a slide-show showing some programs to keep yourself entertained. Depending on the age of your computer, the install could take from 5 to about 30 minutes. Just let it run and get a snack :)
 
 ## 4. Installed System
-After the installation as finished you will get a popup asking if you want to continue testing or restart and go into your installed system. If you're ready, just click the "Restart Now" button or just restart your PC from the menu in the bottom left. It will then ask you to remove the USB stick and hit enter. After a reboot you should now be in your ready to use installed Linux Mint system!
+After the installation has finished you will get a popup asking if you want to continue testing or restart and go into your installed system. If you're ready, just click the "Restart Now" button or just restart your PC from the menu in the bottom left. It will then ask you to remove the USB stick and hit enter. After a reboot you should now be in your ready to use installed Linux Mint system!
 
 #### Welcome Screen
 Linux Mint comes with a Welcome Screen that shows you some of the things you can and should do after installation.
@@ -123,9 +128,9 @@ This is an essential part of your system. Other than Windows in previous years, 
 ## 5. Software Compatibility
 #### Games with Steam
 Steam is a good example of a program available in the Software Manager. Just search "steam" and install it. Launch the program and login like normal.
-You might have heard that Linux has bad game compatibility. It is true, that most games are not officially built for Linux. But Valve, the software behind Steam, has a fix for that. Go to `Settings > Steam Play > Enable Steam Play for all Titles` to enable Proton, a tool to play almost all games supported by Windows on Linux.
+You might have heard that Linux has bad game compatibility. It is true, that most games are not officially built for Linux. But Valve, the company behind Steam, has a fix for that. Go to `Settings > Steam Play > Enable Steam Play for all Titles` to enable Proton, a tool to play almost all games developed for Windows on Linux.
 
-But sadly, to face the truth, some popular games aren't supported yet. Mostly due to Anti-Cheat-Systems, some games can't run on Linux. Check [[https://protondb.com]] to see if the games you want to play work with Linux. And if they don't work out of the box, you can also find guides on how to make them work there.
+But sadly, the truth is that some popular games aren't supported yet. Mostly due to Anti-Cheat-Systems, some games can't run on Linux. Check [[https://protondb.com]] to see if the games you want to play work with Linux. And if they don't work out of the box, you can also find guides on how to make them work there.
 #### Games on EPIC GAMES or GOG using Heroic
 For games on the Epic Game Store or GOG there is the Heroic Games Launcher. Just install it from the Software Manager, login with your account and install your games. Although Lutris also has Epic Games and GOG support, I would recommend using Heroic, because it's more specialized.
 #### Other games using Lutris
