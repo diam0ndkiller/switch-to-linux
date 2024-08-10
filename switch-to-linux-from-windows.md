@@ -28,13 +28,13 @@ Linux Mint just released it's version 22, codenamed Wilma, as of writing this ar
 - The "Cinnamon Edition":
   This is the most popular version of Linux Mint, which I recommend you too. It packs a graphical user interface (GUI) that looks and feels like Windows out of the box, but it can be customized in a lot of ways to work differently.
 - The "XFCE Edition":
-  This is another graphical user interface which you can choose. It is a bit more older and lacks some modern features, but is more lightweight and more customizable.
+  This is another graphical user interface which you can choose. It is a bit older and lacks some modern features, but is more lightweight and more customizable.
 - And finally: The "MATE Edition":
   Similar to XFCE, this is even more lightweight and even older. I wouldn't recommend it to most users.
 
 All of this versions feature the same base system, but with a different **Desktop Environment** built on top of it. Desktop Environments (or short DEs) are a part of your graphical user interface. They are responsible of showing your Taskbar(s) (Panels), your windows and your desktop icons for example. In this guide I recommend you use the Cinnamon desktop, like said before.
 
-You can go ahead and click the "Download" button right now. It will take you to a page of multiple other links. If you scroll down a bit, you will find the "Download Mirrors" section. This is again a result of the community-driven nature of Linux Mint. There is not one big server where you can download the system. Instead, there are multiple small ones, hosted mostly by universities and other organisations, that host the same files for all. Choose a location that is close to your home and click the link. Your download should start now. You can continue reading this post while it runs.broadcomm
+You can go ahead and click the "Download" button right now. It will take you to a page of multiple other links. If you scroll down a bit, you will find the "Download Mirrors" section. This is again a result of the community-driven nature of Linux Mint. There is not one big server where you can download the system. Instead, there are multiple small ones, hosted mostly by universities and other organisations, that host the same files for all. Choose a location that is close to your home and click the link. Your download should start now. You can continue reading this post while it runs.
 
 ## 2. Booting and Media
 In order to install an operating system on your PC, you need to create a "bootable media". That is just a USB stick that behaves like it was a hard disk or SSD inside your computer and that contains an operating system.
