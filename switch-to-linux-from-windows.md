@@ -162,7 +162,7 @@ It might seem that this package format is perfect. But I still prefer System Pac
 		- `sudo flatpak override --filesystem=$HOME/.icons`
 		- `sudo flatpak override --filesystem=/usr/share/themes`
 		- `sudo flatpak override --filesystem=/usr/share/icons`
-	- 2. Tell Flatpak apps which theme to use (e.g. is `Mint-Y` or `Mint-Y-Dark-Aqua`)
+	- 2. Tell Flatpak apps which theme to use (e.g. `Mint-Y` or `Mint-Y-Dark-Aqua`)
 		- `sudo flatpak override --env=GTK_THEME=Mint-Y`
 		- `sudo flatpak override --env=ICON_THEME=Mint-Y-Dark-Aqua`
 ##### 3. AppImages
