@@ -130,6 +130,46 @@ You can now go into the system settings and explore your way around. Find someth
 This is an essential part of your system. Other than Windows in previous years, Linux uses an App Store to install programs. In the background, there are different tools and repositories responsible for that, but you only need to worry about the App Store, called "Software Manager". Whenever you need a program, install it through the Software Manager. And only if it's not here, go hunting on the internet.
 
 ## 5. Software Compatibility
+#### Package types and sources
+Linux is the OS of freedom, which also means that there are a lot of ways to do some things. That especially is true for packages, i.e. software installation. In Linux Mint, there are three common *package types* you can use to install software:
+##### 1. Debian Packages (system repos)
+The first way are the Debian packages. Linux Mint is based on Ubuntu, which is itself based on Debian. Software installed from a Debian package (identified by a `.deb` extension) is located right inside the systems admin directories and has all permissions your user has too. I still like them best though, because the default install location and no permissions mean that they are much easier to use in automated scripts.
+###### 1. from the System Repositories
+You can get Debian Packages either inside the Software Manager (from the *system repositories*) or from external sources. In the Software Manager, just search the program you want to install and under the install button look for `System Package`. You may have to drop-down and select it.
+###### 2. from developer's websites
+The second option of where to get `.deb` packages is on developer's websites. This way is similar to how you download software on Windows. Because Ubuntu and Debian are the most used bases of Linux systems, most of the time when you find a download labelled just "Linux", it will be a `.deb` package. Just install it by double-clicking it.
+###### 3. from `PPA`s or so called additional repositories
+A developer can also choose to provide a custom repository. That is a place on their own server where they host Debian packages. When you find an install guide handling these repositories, use the given instructions in the terminal. The big pro in contrast to normal `.deb` downloads is that external repositories can be updated by the developer and your system Update Manager will automatically pull updates, instead of you having to download any new version.
+##### 2. Flatpaks
+Flatpak is a newer package format. Its philosophy is that developers should only need to develop one version of an app for Linux, instead of releasing multiple ones for different distributions and versions of them. Flatpak achieves this by being its own program with an app store, that can be installed on most Linux distros. You can find Flatpaks in the Software Manager, just like System Packages.
+###### Pros of using Flatpaks:
+- You have automatic updates for your apps
+- Most of the time you have newer versions of apps, because the developers don't need to wait for the Linux Mint team to release a new version in the System repos.
+- You have **permissions** for what your app can access on your system, similar to what Android or iOS would have.
+	- Please mind that out of the box there is no graphical way to change these permissions. To do so, please install **Flatseal** from the Software Manager
+- You make the job easier for most developers, because they only need to maintain one version of their app for Linux
+- Because of that you have more apps available than otherwise.
+###### Cons of using Flatpaks:
+It might seem that this package format is perfect. But I still prefer System Packages when I can, due to these reasons:
+- The apps don't have access to everything out of the box, and I had some issues while I didn't know about the underlying systems.
+- The apps are not installed in the default location for apps, but in a sandbox, which makes them hard to work with in scripting.
+- They need some tweaks to use the same theme as the rest of your apps.
+###### Setup tips for Flatpak:
+- Download Flatseal to change permissions for Flatpaks.
+- Execute the following commands to use your system's design theme in Flatpak as well:
+	- 1. Give Flatpak apps access to your installed themes:
+		- `sudo flatpak override --filesystem=$HOME/.themes`
+		- `sudo flatpak override --filesystem=$HOME/.icons`
+		- `sudo flatpak override --filesystem=/usr/share/themes`
+		- `sudo flatpak override --filesystem=/usr/share/icons`
+	- 2. Tell Flatpak apps which theme to use (e.g. is `Mint-L` or `Mint-L-Dark-Aqua`)
+		- `sudo flatpak override --env=GTK_THEME=Mint-L`
+		- `sudo flatpak override --env=ICON_THEME=Mint-L-Dark-Aqua`
+##### 3. AppImages
+These packages are the equivalent to portable `.exe` applications on Windows. You only have to download one file, double click it and it just runs. To use them like normal applications from your start menu, I would recommend you install an app called "Gear Lever" from the Software Store. It opens when you double click an AppImage file and it lets you quote on quote "install" it to your system, meaning you will find a link to that file in your start menu.
+AppImages are widely seen as a bad way to release an app, because they are often very big in size and don't use any permission system, which means that you can accidentally double-click a malicious file from the web.
+On the other hand they are also a very simple way for developers to package their apps, because they run almost anywhere. So you will find an `.AppImmage` download link very often on developer's websites. Just be sure that there isn't a native version in the Software Manager before you use the AppImage.
+
 #### Games with Steam
 Steam is a good example of a program available in the Software Manager. Just search "steam" and install it. Launch the program and login like normal.
 You might have heard that Linux has bad game compatibility. It is true, that most games are not officially built for Linux. But Valve, the company behind Steam, has a fix for that. Go to `Settings > Steam Play > Enable Steam Play for all Titles` to enable Proton, a tool to play almost all games developed for Windows on Linux.
