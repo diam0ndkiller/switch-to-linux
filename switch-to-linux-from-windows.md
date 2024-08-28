@@ -162,9 +162,9 @@ It might seem that this package format is perfect. But I still prefer System Pac
 		- `sudo flatpak override --filesystem=$HOME/.icons`
 		- `sudo flatpak override --filesystem=/usr/share/themes`
 		- `sudo flatpak override --filesystem=/usr/share/icons`
-	- 2. Tell Flatpak apps which theme to use (e.g. is `Mint-L` or `Mint-L-Dark-Aqua`)
-		- `sudo flatpak override --env=GTK_THEME=Mint-L`
-		- `sudo flatpak override --env=ICON_THEME=Mint-L-Dark-Aqua`
+	- 2. Tell Flatpak apps which theme to use (e.g. is `Mint-Y` or `Mint-Y-Dark-Aqua`)
+		- `sudo flatpak override --env=GTK_THEME=Mint-Y`
+		- `sudo flatpak override --env=ICON_THEME=Mint-Y-Dark-Aqua`
 ##### 3. AppImages
 These packages are the equivalent to portable `.exe` applications on Windows. You only have to download one file, double click it and it just runs. To use them like normal applications from your start menu, I would recommend you install an app called "Gear Lever" from the Software Store. It opens when you double click an AppImage file and it lets you quote on quote "install" it to your system, meaning you will find a link to that file in your start menu.
 AppImages are widely seen as a bad way to release an app, because they are often very big in size and don't use any permission system, which means that you can accidentally double-click a malicious file from the web.
